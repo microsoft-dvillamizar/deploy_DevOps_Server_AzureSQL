@@ -11,7 +11,7 @@
         },
         "sqlAdminUsername": {
             "type": "string",
-            "defaultValue": "adm-jsmith",
+            "defaultValue": "adm-dvillamizar",
             "metadata": {
                 "description": "Traditional SQL Server admin username"
             }
@@ -54,14 +54,14 @@
         },
         "virtualMachineName": {
             "type": "String",
-            "defaultValue": "devOpsSrv2020",
+            "defaultValue": "devOpsSrv2019",
             "metadata": {
                 "description": "The name of the virtual machine where Azure DevOps Server 2019 will be installed as part of this deployment"
             }
         },
         "localVMAdminUsername": {
             "type": "String",
-            "defaultValue": "adm-jsmith",
+            "defaultValue": "adm-dvillamizar",
             "metadata": {
                 "description": "The name of the local administrator account on the virtual machine where Azure DevOps Server 2019 is being installed."
             }
@@ -74,7 +74,7 @@
         },
         "domainUsername": {
             "type": "string",
-            "defaultValue": "adm-jsmith",
+            "defaultValue": "adm-dvillamizar",
             "metadata": {
                 "description": "Used to join the Azure DevOps Server virtual machine to your on-prem domain.  Must have permission to join computers to your on-prem Active Directory domain."
             }
@@ -87,7 +87,7 @@
         },
         "domainToJoin": {
             "type": "string",
-            "defaultValue": "contoso.com",
+            "defaultValue": "minhacienda.gov.co",
             "metadata": {
                 "description": "Used to join the Azure DevOps Server virtual machine to your on-prem domain.  Must have permission to join computers to your on-prem Active Directory domain."
             }
