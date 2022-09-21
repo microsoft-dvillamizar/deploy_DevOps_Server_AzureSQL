@@ -24,7 +24,7 @@
         },
         "sqlAADAdminUsername": {
             "type": "string",
-            "defaultValue": "<username>@<domainname>.onmicrosoft.us",
+            "defaultValue": "<username>@<domainname>.onmicrosoft.com",
             "metadata": {
                 "description": "The Azure Active Directory user whom will be the admin of the Azure SQL Server.  Can also be an Azure Active Directory security group.  Must be an Azure Active Directory user or group."
             }
